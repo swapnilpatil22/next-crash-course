@@ -1,7 +1,7 @@
 export const articles = [
   {
     id: '1',
-    title: 'GitHub introduces dark mode and auto-merge pull request',
+    title: 'This is test title one',
     excerpt:
       'GitHub today announced a bunch of new features at its virtual GitHub...',
     body:

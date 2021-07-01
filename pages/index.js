@@ -8,7 +8,8 @@ export default function Home({ articles }) {
     </div>
   )
 }
-
+//api calls to get all the data required
+//props fetched over here can be passed on to the components
 export const getStaticProps = async () => {
   const res = await fetch(`${server}/api/articles`)
   const articles = await res.json()
